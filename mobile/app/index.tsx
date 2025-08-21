@@ -5,7 +5,7 @@ export default function Index() {
     <View
       style={styles.container}
     >
-    <Text style={styles.text}>Rana akta kut.</Text>
+    <Text style={styles.text}>Khapa nu Maa</Text>
     </View>
   );
 }
