@@ -15,7 +15,7 @@ app.use(express.json());
 
 // Health check
 app.get('/api/health', (req, res) => {
-  res.status(200).json({ success: true, message: "Server is running fine" });
+  res.status(200).json({success: true, message: "Server is running fine" });
 });
 
 // ✅ POST: Add a favorite
