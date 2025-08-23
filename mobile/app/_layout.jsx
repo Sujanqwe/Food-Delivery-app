@@ -8,7 +8,9 @@ import { Slot } from 'expo-router'
 export default function RootLayout() {
   return (
     <ClerkProvider tokenCache={tokenCache}>
-      <Slot />
+      <SafeAreaView style={{ flex: 1 }} edges={['top'] }>
+        <Slot />
+      </SafeAreaView>
     </ClerkProvider>
   ); 
 }
