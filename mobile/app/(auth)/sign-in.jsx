@@ -141,4 +141,4 @@ const SignInScreen = () => {
     </View>
   );
 };
-export default SignInScreen; 
+export default SignInScreen;
